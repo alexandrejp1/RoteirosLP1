@@ -2,12 +2,12 @@
 #define RESTAURANTECASEIRO_H_INCLUDED
 #include "Mesaderestaurante.h"
 #define MESA 50
-
+#include <iostream>
 
 class RestauranteCaseiro{
-    MesaDeRestaurante mesarestaurante[MESA];
 public:
-    void adicionaAoPedido();
+    MesaDeRestaurante mesarestaurante[MESA];
+    void adicionaPedido();
     float calculaTotalRestaurante();
 
 };

@@ -1,7 +1,9 @@
-#ifndef MESADERESTAURANTE_H_
-#define MESADERESTAURANTE_H_
+#ifndef MESADERESTAURANTE_H_INCLUDED
+#define MESADERESTAURANTE_H_INCLUDED
+
 #include "Pedido.h"
 #define TAM 300
+#include <iostream>
 
 class MesaDeRestaurante{
     static int cont;
@@ -12,7 +14,7 @@ public:
     float calculaTotal();
 
 };
-int MesaDeRestaurante::cont = 0;
+
 
 
 #endif // MESADERESTAURANTE_H_INCLUDED

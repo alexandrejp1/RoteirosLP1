@@ -1,6 +1,8 @@
-#ifndef RESTAURANTE_H_
-#define RESTAURANTE_H_
+#ifndef PEDIDO_H_INCLUDED
+#define PEDIDO_H_INCLUDED
 #include <string>
+#include <iostream>
+
 
 class Pedido{
 public:
